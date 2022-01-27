@@ -1,0 +1,26 @@
+body {
+  font-size: 100%;
+}
+h3 {
+  padding: 30px 0 30px 10px;
+}
+#clock {
+  font-size: 2rem;
+  padding: 0 0 30px 30px;
+}
+input[type="button"] {
+  padding: 10px 10px;
+  background-color: #cccccc;
+  border: solid 1px #444;
+  margin: 0 5px 30px 0;
+  font-weight: bold;
+}
+input[type="button"]:hover {
+  background-color: #bbbbbb;
+}
+input:disabled {
+  opacity: 0.5;
+}
+#start {
+  margin-left: 10px;
+}
